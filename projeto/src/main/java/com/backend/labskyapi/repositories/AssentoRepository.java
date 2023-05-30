@@ -1,6 +1,6 @@
-package com.backend.labskyapi.Repositories;
+package com.backend.labskyapi.repositories;
 
-import com.backend.labskyapi.Models.Assento;
+import com.backend.labskyapi.models.Assento;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

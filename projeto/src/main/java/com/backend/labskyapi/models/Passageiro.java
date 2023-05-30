@@ -1,6 +1,6 @@
-package com.backend.labskyapi.Models;
+package com.backend.labskyapi.models;
 
-import com.backend.labskyapi.Models.Enums.Classificacao;
+import com.backend.labskyapi.models.Enums.Classificacao;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
