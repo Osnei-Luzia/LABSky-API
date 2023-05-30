@@ -18,9 +18,14 @@ public class Passageiro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
+    @Column(nullable = false)
     String cpf;
+    @Column(nullable = false)
     String nome;
+    @Column(nullable = false)
     LocalDate dataNascimento;
+    @Column(nullable = false)
     Classificacao classificacao;
+    @Column(nullable = false)
     Integer milhas;
 }

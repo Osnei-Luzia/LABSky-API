@@ -17,8 +17,12 @@ public class Passagem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
+    @Column(nullable = false)
     String eTicket;
+    @Column(nullable = false)
     String Assento;
+    @Column(nullable = false)
     Boolean malas;
+    @Column(nullable = false)
     LocalDateTime dataHora;
 }

@@ -15,6 +15,8 @@ public class Assento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
+    @Column(nullable = false)
     String nome;
+    @Column(nullable = false)
     Boolean ocupado;
 }
