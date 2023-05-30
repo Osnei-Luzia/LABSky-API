@@ -3,7 +3,6 @@ package com.backend.labskyapi.services;
 import com.backend.labskyapi.controller.dtos.PassageiroResponseDTO;
 import com.backend.labskyapi.models.Passagem;
 import com.backend.labskyapi.repositories.PassageiroRepository;
-import com.backend.labskyapi.repositories.PassagemRepository;
 import com.backend.labskyapi.services.mappers.PassageiroMapper;
 import org.springframework.stereotype.Service;
 
@@ -23,14 +22,26 @@ public class PassageiroService {
         this.mapper = mapper;
     }
 
-    public List<PassageiroResponseDTO> procurarPassageiros(){
+    public List<PassageiroResponseDTO> procurarPassageiros() {
         List<PassageiroResponseDTO> passageiros = repository.findAll().stream().map(passageiro -> mapper.map(passageiro)).collect(Collectors.toList());
-        for(PassageiroResponseDTO passageiro: passageiros){
-            Passagem passagem = passagemService.procurarPassagemByCpf(passageiro.getCpf());
-            if(!Objects.isNull(passagem)){
-                mapper.update(passageiro,passagem);
+        for (PassageiroResponseDTO passageiro : passageiros) {
+            Passagem passagem = procurarPassagem(passageiro.getCpf());
+            if (!Objects.isNull(passagem)) {
+                mapper.update(passageiro, passagem);
             }
         }
         return passageiros;
+    }
+
+    public PassageiroResponseDTO procurarPassageirosByCpf(String cpf) {
+        PassageiroResponseDTO passageiro = mapper.map(repository.findByCpf(cpf));
+        Passagem passagem = procurarPassagem(passageiro.getCpf());
+        if (!Objects.isNull(passagem)) {
+            mapper.update(passageiro, passagem);
+        }
+        return passageiro;
+    }
+    private Passagem procurarPassagem(String cpf){
+        return passagemService.procurarPassagemByCpf(cpf);
     }
 }
