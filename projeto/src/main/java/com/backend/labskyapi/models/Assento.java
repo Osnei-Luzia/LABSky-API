@@ -1,4 +1,4 @@
-package com.backend.labskyapi.Models;
+package com.backend.labskyapi.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -13,9 +13,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Assento {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    @Column(nullable = false)
     String nome;
     @Column(nullable = false)
     Boolean ocupado;

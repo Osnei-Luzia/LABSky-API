@@ -1,4 +1,4 @@
-package com.backend.labskyapi.Models.Enums;
+package com.backend.labskyapi.models.Enums;
 
 public enum Classificacao {
     VIP,

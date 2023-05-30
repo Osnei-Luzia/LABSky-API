@@ -1,4 +1,4 @@
-package com.backend.labskyapi.Models;
+package com.backend.labskyapi.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,11 +18,14 @@ public class Passagem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     @Column(nullable = false)
+    String cpf;
+    @Column(nullable = false)
     String eTicket;
+    @OneToOne
+    Assento assento;
     @Column(nullable = false)
-    String Assento;
+    Boolean malasDespachadas;
     @Column(nullable = false)
-    Boolean malas;
-    @Column(nullable = false)
-    LocalDateTime dataHora;
+    //mudar para LocalDateTime
+    String dataHora;
 }
