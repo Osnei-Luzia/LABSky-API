@@ -4,8 +4,6 @@ import com.backend.labskyapi.models.Passagem;
 import com.backend.labskyapi.repositories.PassagemRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class PassagemService {
     PassagemRepository repository;
@@ -14,7 +12,11 @@ public class PassagemService {
         this.repository = repository;
     }
 
-    public Passagem procurarPassagemByCpf(String cpf){
+    public Passagem procurarPassagemByCpf(String cpf) {
         return repository.findByCpf(cpf);
+    }
+
+    public void salvarPassagem(Passagem passagem) {
+        repository.save(passagem);
     }
 }

@@ -19,7 +19,7 @@ public class AssentoController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Assento>> buscarAssentos(){
+    public ResponseEntity<List<Assento>> buscarAssentos() {
         return ResponseEntity.ok().body(service.procurarAssento());
     }
 }

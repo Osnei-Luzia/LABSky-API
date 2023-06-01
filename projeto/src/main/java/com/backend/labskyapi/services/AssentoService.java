@@ -14,7 +14,15 @@ public class AssentoService {
         this.repository = repository;
     }
 
-    public List<Assento> procurarAssento(){
+    public List<Assento> procurarAssento() {
         return repository.findAll();
+    }
+
+    public Assento procurarAssentoByNome(String nome) {
+        return repository.findAssentoByNome(nome);
+    }
+
+    public void ocuparAssento(Assento assento) {
+        repository.save(assento);
     }
 }

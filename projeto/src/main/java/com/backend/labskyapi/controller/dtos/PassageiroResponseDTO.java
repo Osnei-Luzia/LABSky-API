@@ -28,6 +28,5 @@ public class PassageiroResponseDTO {
     String eTicket;
     Assento assento;
     Boolean malasDespachadas;
-    //mudar para LocalDateTime
-    String dataHora;
+    LocalDateTime dataHoraConfirmacao;
 }

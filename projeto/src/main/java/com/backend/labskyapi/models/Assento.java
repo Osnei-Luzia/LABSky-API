@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 public class Assento {
     @Id
     String nome;
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "boolean default false")
     Boolean ocupado;
+    @Column(nullable = false, columnDefinition = "boolean default false")
+    Boolean emergencia;
 }
