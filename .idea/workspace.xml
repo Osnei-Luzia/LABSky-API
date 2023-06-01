@@ -8,10 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/AssentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/AssentoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/PassageiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/PassageiroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Assento.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Assento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassageiroResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassageiroResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/repositories/AssentoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/repositories/AssentoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/AssentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/AssentoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassagemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassagemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/mappers/PassageiroMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/mappers/PassageiroMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/mappers/PassagemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/mappers/PassagemMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +105,7 @@
       <workItem from="1685457382406" duration="13355000" />
       <workItem from="1685482650191" duration="5590000" />
       <workItem from="1685555284592" duration="8125000" />
-      <workItem from="1685621982895" duration="882000" />
+      <workItem from="1685621982895" duration="6193000" />
     </task>
     <servers />
   </component>

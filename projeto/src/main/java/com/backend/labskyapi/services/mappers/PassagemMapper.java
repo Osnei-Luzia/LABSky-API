@@ -11,5 +11,6 @@ import org.mapstruct.ReportingPolicy;
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING, unmappedTargetPolicy = ReportingPolicy.IGNORE, nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
 public interface PassagemMapper {
     Passagem map(PassagemRequestDTO source);
+
     PassagemResponseDTO map(Passagem source);
 }

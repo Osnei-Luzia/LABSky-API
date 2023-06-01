@@ -13,12 +13,13 @@ import java.util.List;
 @RequestMapping("/api/assentos")
 public class AssentoController {
     private final AssentoService service;
+
     public AssentoController(AssentoService service) {
         this.service = service;
     }
 
     @GetMapping
-    public ResponseEntity<List<Assento>> buscarAssentos(){
+    public ResponseEntity<List<Assento>> buscarAssentos() {
         return ResponseEntity.ok().body(service.procurarAssento());
     }
 }
