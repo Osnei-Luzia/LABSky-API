@@ -17,4 +17,7 @@ public class PassagemService {
     public Passagem procurarPassagemByCpf(String cpf){
         return repository.findByCpf(cpf);
     }
+    public void salvarPassagem(Passagem passagem){
+        repository.save(passagem);
+    }
 }

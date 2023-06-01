@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a1b81fd-1bfd-4076-94dd-1dbf5d2986d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/AssentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/AssentoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/AssentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/AssentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/PassageiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/PassageiroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Assento.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Assento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassagemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassagemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,25 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Bibliotecas/Desktop/code/LABSky-API",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Bibliotecas/Desktop/code/LABSky-API&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;edf41209aa2e8db77359eb725e70b5f1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="LabSkyApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="LABSky-API" />
@@ -89,7 +97,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685457380829</updated>
-      <workItem from="1685457382406" duration="10887000" />
+      <workItem from="1685457382406" duration="13355000" />
+      <workItem from="1685482650191" duration="5590000" />
+      <workItem from="1685555284592" duration="8125000" />
+      <workItem from="1685621982895" duration="882000" />
     </task>
     <servers />
   </component>

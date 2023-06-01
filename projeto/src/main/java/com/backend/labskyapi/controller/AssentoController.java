@@ -13,7 +13,6 @@ import java.util.List;
 @RequestMapping("/api/assentos")
 public class AssentoController {
     private final AssentoService service;
-
     public AssentoController(AssentoService service) {
         this.service = service;
     }
