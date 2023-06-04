@@ -73,7 +73,6 @@ public class PassageiroService {
         passagem.setDataHoraConfirmacao(timestamp.toLocalDateTime());
 
         passageiro.setMilhas(passageiro.getMilhas() + passageiro.getClassificacao().getValor());
-        //verificar se passageiro é guardado com nova milha
         passagemService.salvarPassagem(passagem);
 
         log.info("Confirmação feita pelo passageiro de cpf: " + passageiro.getCpf() + " com e-ticket: " + passagem.getETicket());

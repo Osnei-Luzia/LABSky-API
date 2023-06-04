@@ -71,7 +71,7 @@ class PassageiroServiceTest {
         Assento assento = new Assento(1L,"1A",true,false);
 
         assertThrows(AssentoOcupadoException.class, () -> service.validarAssento(assento,passageiro,request.getMalasDespachadas()));
-    }//verificar esse teste
+    }
 
     @Test
     @DisplayName("Quando o assento possuir a propriedade emergencia true e a idade do passageiro for menor que 18, deve retornar a exceção AssentoEmergenciaException")
@@ -91,9 +91,19 @@ class PassageiroServiceTest {
 
         assertThrows(AssentoEmergenciaException.class, () -> service.validarAssento(assento,passageiro,request.getMalasDespachadas()));
     }
+    @Test
+    @DisplayName("Quando somado as milhas de passageiro com as milhas de categoria, deve retornar o valor de milhas atualizado corretamente")
+    void milhas(){
+        Passageiro passageiro1 = new Passageiro(2L,"222.222.222-22","Nome", LocalDate.of(1961,02,12), Classificacao.VIP,100);
+        Passageiro passageiro2 = new Passageiro(2L,"333.333.333-33","Nome", LocalDate.of(1962,06,22), Classificacao.BRONZE,50);
+        passageiro1.setMilhas(passageiro1.getMilhas() + passageiro1.getClassificacao().getValor());
+        passageiro2.setMilhas(passageiro2.getMilhas() + passageiro2.getClassificacao().getValor());
 
-    //passageiro.setMilhas(passageiro.getMilhas() + passageiro.getClassificacao().getValor());
-    //verificar teste para milhas
+        assertNotNull(passageiro1.getMilhas());
+        assertEquals(200,passageiro1.getMilhas());
+        assertNotNull(passageiro2.getMilhas());
+        assertEquals(80,passageiro2.getMilhas());
+    }
 }
 
 

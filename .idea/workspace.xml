@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a1b81fd-1bfd-4076-94dd-1dbf5d2986d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/AssentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/AssentoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/PassageiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/PassageiroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassageiroResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassageiroResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/controller/dtos/PassagemResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Assento.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Assento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Enums/Classificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/enums/Classificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passageiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passageiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/models/Passagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/mappers/PassageiroMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/mappers/PassageiroMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/services/PassageiroServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/services/PassageiroServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +19,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -82,10 +72,26 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.backend.labskyapi.controller" />
       <recent name="com.backend.labskyapi.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LabSkyApiApplication">
+  <component name="RunManager" selected="JUnit.PassageiroServiceTest">
+    <configuration name="PassageiroControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LABSky-API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.backend.labskyapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.backend.labskyapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.labskyapi.controller.PassageiroControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassageiroServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LABSky-API" />
       <extension name="coverage">
@@ -116,8 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LabSkyApiApplication" />
         <item itemvalue="JUnit.PassageiroServiceTest" />
+        <item itemvalue="JUnit.PassageiroControllerTest" />
+        <item itemvalue="Spring Boot.LabSkyApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +145,7 @@
       <workItem from="1685756029905" duration="161000" />
       <workItem from="1685810920491" duration="4003000" />
       <workItem from="1685848437236" duration="27000" />
-      <workItem from="1685887611373" duration="1190000" />
+      <workItem from="1685887611373" duration="3260000" />
     </task>
     <servers />
   </component>
