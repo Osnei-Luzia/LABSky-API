@@ -1,6 +1,5 @@
 package com.backend.labskyapi.models;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,14 +19,12 @@ public class Passagem {
     Long id;
     @Column(nullable = false)
     String cpf;
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     String eTicket;
     @OneToOne
     Assento assento;
     @Column(nullable = false)
     Boolean malasDespachadas;
     @Column(nullable = false)
-    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
-    //checar formatação
     LocalDateTime dataHoraConfirmacao;
 }

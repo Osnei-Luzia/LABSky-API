@@ -9,8 +9,6 @@ INSERT INTO passageiros (id, cpf, nome, data_nascimento, classificacao, milhas) 
 INSERT INTO passageiros (id, cpf, nome, data_nascimento, classificacao, milhas) VALUES (default, '888.888.888-88', 'Janice Wheeler', '1961-08-07', 3, 75);
 INSERT INTO passageiros (id, cpf, nome, data_nascimento, classificacao, milhas) VALUES (default, '999.999.999-99', 'Richard Burke', '1945-01-29', 3, 50);
 
-INSERT INTO passageiros (id, cpf, nome, data_nascimento, classificacao, milhas) VALUES (default, '199.999.999-99', 'Richard Burke', '2020-01-29', 3, 50);
-
 INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('1A', default, default);INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('1B', default, default);INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('1C', default, default);
 INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('2A', default, default);INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('2B', default, default);INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('2C', default, default);
 INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('3A', default, default);INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('3B', default, default);INSERT INTO assentos (nome, ocupado, emergencia) VALUES ('3C', default, default);

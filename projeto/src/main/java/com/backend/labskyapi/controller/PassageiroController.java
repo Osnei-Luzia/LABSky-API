@@ -1,5 +1,6 @@
 package com.backend.labskyapi.controller;
 
+import com.backend.labskyapi.controller.dtos.PassageiroCPFResponseDTO;
 import com.backend.labskyapi.controller.dtos.PassagemRequestDTO;
 import com.backend.labskyapi.controller.dtos.PassagemResponseDTO;
 import com.backend.labskyapi.controller.dtos.PassageiroResponseDTO;
@@ -25,7 +26,7 @@ public class PassageiroController {
     }
 
     @GetMapping("/{cpf}")
-    public ResponseEntity<PassageiroResponseDTO> buscarPassageirosByCpf(@PathVariable String cpf) {
+    public ResponseEntity<PassageiroCPFResponseDTO> buscarPassageirosByCpf(@PathVariable String cpf) {
         return ResponseEntity.ok().body(service.procurarPassageirosByCpf(cpf));
     }
 
