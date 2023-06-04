@@ -13,6 +13,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Assento {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Long id;
+    @Column(unique = true)
     String nome;
     @Column(nullable = false, columnDefinition = "boolean default false")
     Boolean ocupado;

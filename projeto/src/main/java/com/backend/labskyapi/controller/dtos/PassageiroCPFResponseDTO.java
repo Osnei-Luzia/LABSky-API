@@ -1,6 +1,5 @@
 package com.backend.labskyapi.controller.dtos;
 
-import com.backend.labskyapi.models.Assento;
 import com.backend.labskyapi.models.enums.Classificacao;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
@@ -10,12 +9,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PassageiroResponseDTO {
+public class PassageiroCPFResponseDTO {
     @NotBlank
     String cpf;
     @NotBlank
@@ -27,9 +25,4 @@ public class PassageiroResponseDTO {
     Classificacao classificacao;
     @NotNull
     Integer milhas;
-    String eTicket;
-    Assento assento;
-    Boolean malasDespachadas;
-    @JsonFormat(pattern = "dd/MM/yyyy HH:mm:ss")
-    LocalDateTime dataHoraConfirmacao;
 }
