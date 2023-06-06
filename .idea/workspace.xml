@@ -76,7 +76,7 @@
       <recent name="com.backend.labskyapi.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassageiroServiceTest">
+  <component name="RunManager" selected="JUnit.AssentoControllerTest">
     <configuration name="AssentoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LABSky-API" />
       <extension name="coverage">
@@ -137,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PassageiroServiceTest" />
         <item itemvalue="JUnit.AssentoControllerTest" />
         <item itemvalue="JUnit.PassageiroControllerTest" />
+        <item itemvalue="JUnit.PassageiroServiceTest" />
         <item itemvalue="Spring Boot.LabSkyApiApplication" />
       </list>
     </recent_temporary>

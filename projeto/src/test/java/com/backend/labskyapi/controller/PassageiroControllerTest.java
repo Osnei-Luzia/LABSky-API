@@ -49,7 +49,7 @@ class PassageiroControllerTest {
     }
 
     @Test
-    @DisplayName("Quando informado qualquer cpf, deve retornar uma response formato correto")
+    @DisplayName("Quando informado qualquer cpf, deve retornar uma response no formato correto")
     void buscarPorCpf_vazio() throws Exception {
         PassageiroCPFResponseDTO expectedResponse = new PassageiroCPFResponseDTO("111.111.111-11", "Nome", LocalDate.of(1111, 11, 11), Classificacao.VIP, 100);
         Mockito.when(service.procurarPassageirosByCpf(Mockito.anyString())).thenReturn(new PassageiroCPFResponseDTO("111.111.111-11", "Nome", LocalDate.of(1111, 11, 11), Classificacao.VIP, 100));
