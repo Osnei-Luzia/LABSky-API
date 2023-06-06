@@ -81,7 +81,7 @@ class PassageiroServiceTest {
     @Test
     @DisplayName("Quando o assento possuir a propriedade emergencia true e a idade do passageiro for menor que 18, deve retornar a exceção AssentoEmergenciaException")
     void assento_emergenciaIdade() {
-        PassagemRequestDTO request = new PassagemRequestDTO("222.222.222-22", "5A", false);
+        PassagemRequestDTO request = new PassagemRequestDTO("222.222.222-22", "5A", true);
         Passageiro passageiro = new Passageiro(2L, "222.222.222-22", "Nome", LocalDate.now(), Classificacao.VIP, 100);
         Assento assento = new Assento(5L, "5A", false, true);
 

@@ -106,7 +106,7 @@ public class PassageiroService {
         }
 
         if (assento.getEmergencia()) {
-            if (Period.between(passageiro.getDataNascimento(), LocalDate.now()).getYears() < 18) {//verificar dia e mes não usar date
+            if (Period.between(passageiro.getDataNascimento(), LocalDate.now()).getYears() < 18) {
                 throw new AssentoEmergenciaException("Não é permitido passageiro menor de idade em assentos da área de emergência - fileiras 5 e 6");
             }
             if (!malasDespachadas) {
