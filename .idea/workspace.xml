@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a1b81fd-1bfd-4076-94dd-1dbf5d2986d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/services/PassageiroServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/services/PassageiroServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,7 @@
       <workItem from="1686006734308" duration="489000" />
       <workItem from="1686007249320" duration="601000" />
       <workItem from="1686066275837" duration="3130000" />
-      <workItem from="1686069473314" duration="310000" />
+      <workItem from="1686069473314" duration="712000" />
     </task>
     <servers />
   </component>

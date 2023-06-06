@@ -69,7 +69,7 @@ class PassageiroServiceTest {
     }
 
     @Test
-    @DisplayName("Quando o assento possuir a propriedade ocupado true, deve retornar a exceção AssentoOcupadoException")
+    @DisplayName("Quando o assento estiver ocupado, deve retornar a exceção AssentoOcupadoException")
     void assento_conflict() {
         PassagemRequestDTO request = new PassagemRequestDTO("222.222.222-22", "2A", true);
         Passageiro passageiro = new Passageiro(2L, "222.222.222-22", "Nome", LocalDate.of(1961, 02, 12), Classificacao.VIP, 100);
@@ -79,7 +79,7 @@ class PassageiroServiceTest {
     }
 
     @Test
-    @DisplayName("Quando o assento possuir a propriedade emergencia true e a idade do passageiro for menor que 18, deve retornar a exceção AssentoEmergenciaException")
+    @DisplayName("Quando o assento for de emergência e a idade do passageiro for menor que 18, deve retornar a exceção AssentoEmergenciaException")
     void assento_emergenciaIdade() {
         PassagemRequestDTO request = new PassagemRequestDTO("222.222.222-22", "5A", true);
         Passageiro passageiro = new Passageiro(2L, "222.222.222-22", "Nome", LocalDate.now(), Classificacao.VIP, 100);
@@ -89,7 +89,7 @@ class PassageiroServiceTest {
     }
 
     @Test
-    @DisplayName("Quando o assento possuir a propriedade emergencia true e o request possuir malasDespachadas false, deve retornar a exceção AssentoEmergenciaException")
+    @DisplayName("Quando o assento for de emergência e as malas não forma despachadas, deve retornar a exceção AssentoEmergenciaException")
     void assento_emergenciaMalas() {
         PassagemRequestDTO request = new PassagemRequestDTO("222.222.222-22", "5A", false);
         Passageiro passageiro = new Passageiro(2L, "222.222.222-22", "Nome", LocalDate.of(1961, 02, 12), Classificacao.VIP, 100);
