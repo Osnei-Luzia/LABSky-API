@@ -15,7 +15,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.sql.Timestamp;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.Period;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
@@ -51,7 +53,7 @@ public class PassageiroService {
     }
 
     public PassageiroCPFResponseDTO procurarPassageirosByCpf(String cpf) {
-        return  mapper.mapCpf(repository.findByCpf(cpf));
+        return mapper.mapCpf(repository.findByCpf(cpf));
     }
 
     public PassagemResponseDTO confirmarPassageiro(PassagemRequestDTO request) {
@@ -104,7 +106,7 @@ public class PassageiroService {
         }
 
         if (assento.getEmergencia()) {
-            if ((new Date().getYear() + 1900) - passageiro.getDataNascimento().getYear() < 18) {//verificar dia e mes não usar date
+            if (Period.between(passageiro.getDataNascimento(), LocalDate.now()).getYears() < 18) {//verificar dia e mes não usar date
                 throw new AssentoEmergenciaException("Não é permitido passageiro menor de idade em assentos da área de emergência - fileiras 5 e 6");
             }
             if (!malasDespachadas) {

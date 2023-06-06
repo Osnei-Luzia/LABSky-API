@@ -7,6 +7,7 @@
     <list default="true" id="2a1b81fd-1bfd-4076-94dd-1dbf5d2986d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/main/java/com/backend/labskyapi/services/PassageiroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/controller/PassageiroControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/controller/PassageiroControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/services/PassageiroServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/test/java/com/backend/labskyapi/services/PassageiroServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,22 @@
       <recent name="com.backend.labskyapi.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassageiroServiceTest">
+  <component name="RunManager" selected="JUnit.AssentoControllerTest">
+    <configuration name="AssentoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LABSky-API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.backend.labskyapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.backend.labskyapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.labskyapi.controller.AssentoControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassageiroControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LABSky-API" />
       <extension name="coverage">
@@ -122,9 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PassageiroServiceTest" />
+        <item itemvalue="JUnit.AssentoControllerTest" />
         <item itemvalue="JUnit.PassageiroControllerTest" />
         <item itemvalue="Spring Boot.LabSkyApiApplication" />
+        <item itemvalue="JUnit.PassageiroServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +162,15 @@
       <workItem from="1685756029905" duration="161000" />
       <workItem from="1685810920491" duration="4003000" />
       <workItem from="1685848437236" duration="27000" />
-      <workItem from="1685887611373" duration="3260000" />
+      <workItem from="1685887611373" duration="3629000" />
+      <workItem from="1685892930931" duration="1361000" />
+      <workItem from="1685907836369" duration="901000" />
+      <workItem from="1685909091686" duration="544000" />
+      <workItem from="1685911387000" duration="931000" />
+      <workItem from="1685923258049" duration="1102000" />
+      <workItem from="1686006734308" duration="489000" />
+      <workItem from="1686007249320" duration="601000" />
+      <workItem from="1686066275837" duration="3130000" />
     </task>
     <servers />
   </component>
